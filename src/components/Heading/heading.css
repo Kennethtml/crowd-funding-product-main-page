@@ -1,0 +1,47 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.about h1{
+    margin-bottom: 20px;
+    
+}
+.about p{
+    margin-bottom: 30px;
+}
+.buttons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #000; */
+    width: 100%;
+}
+.bookmark{
+    color:var(--Dark-cyan);
+      display: flex;
+      position: relative;
+}
+.bookmark img{
+    display: block;
+
+   position: absolute;
+   top:0;
+   left:0;
+   height:47px;
+
+  
+}
+.bookmark span{
+    margin-left: 25px;
+    font-weight: 600;
+}
+.logo{
+    position: absolute;
+    left:50%;
+    top:0;
+    transform: translate(-50%,-50%);
+}

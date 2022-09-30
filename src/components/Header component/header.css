@@ -1,0 +1,20 @@
+.header{
+    width:100%;
+    height:70vh;
+    padding:40px var(--header-padding);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul{
+    display : flex;
+    gap: var(--nav-gap);
+    
+}

@@ -1,0 +1,50 @@
+.stats>*:not(:last-child){
+    margin-bottom: 30px;
+}.data{
+    display: flex;
+    gap:30px;
+    /* border: 1px solid #000; */
+}
+.data p{
+    font-size: 14px;
+}
+.stat{
+      position:relative;
+}
+.stat:not(:first-child){
+    /* border: 1px solid #000; */
+  
+    margin-left: 30px;
+    /* border: 1px solid #000; */
+}
+.stat h1{
+margin-bottom: 10px;
+}
+.stat:not(:last-child)::after{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    background: var(--light-gray);
+    top: 0;
+    right:-30px;
+}
+
+.progress-bar{
+    width:100%;
+    position: relative;
+    padding:4px;
+    border-radius: 50px;
+    background: var(--light-gray);
+}
+.progress-bar::before{
+    content: '';
+    background: var(--Dark-cyan);
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    border-radius: 50px;
+    top:0;
+    left: 0;
+}

@@ -1,0 +1,36 @@
+.selections-container{
+    width:100%;
+      padding:20px;
+}
+.selections-container >*{
+    margin-bottom: 20px;
+}
+.selections-container-heading{
+  display:flex;
+  justify-content: space-between;
+}
+.close-button{
+    position: relative;
+}
+.close-button::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width:4px;
+    background: var(--Dark-gray);
+    height: 15px;
+    position: relative;
+    transform: rotate(45deg);
+    z-index: 2;
+}
+.close-button::after{
+    content: '';
+    display: block;
+      width:4px;
+    background: var(--Dark-gray);
+    height: 15px;
+    position: absolute;
+    top: 0;
+    transform: rotate(-45deg);
+
+}
